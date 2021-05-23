@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: offering-frontend-component
+  description: Offering Frontend
+  annotations:
+    backstage.io/techdocs-ref: './docs'
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: production
+  owner: team-rock
+  system: offering-distribution
+  providesApis:
+    - internal-offering-api
