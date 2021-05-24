@@ -1,6 +1,7 @@
 site_name: Offering API
 
 nav:
+  - index.md
   - Intro:
     - intro/overview.md
     - intro/changelog.md
