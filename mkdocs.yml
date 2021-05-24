@@ -1,0 +1,33 @@
+site_name: Offering API
+
+nav:
+  - Intro:
+    - intro/overview.md
+    - intro/changelog.md
+    - intro/migration_guide.md
+    - intro/contact.md
+  - Domain:
+    - domain/event_group.md
+    - domain/event.md
+    - domain/betoffer.md
+    - domain/outcome.md
+    - domain/betbuild.md
+  - REST API:
+    - List View:
+      - restapi/listview/advanced.md
+      - restapi/listview/betoffer-selection.md
+      - restapi/listview/overview.md
+      - restapi/listview/section.md
+    - restapi/conventions.md
+    - restapi/errors.md
+    - restapi/localization.md
+    - restapi/pagination.md
+    - restapi/parameters.md
+    - restapi/ref.md
+    - restapi/sport.md
+  - Push API:
+    - push/getting_started.mc
+    - push/overview.mc
+
+plugins:
+  - techdocs-core
